@@ -30,7 +30,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println();
   
-  lcd.init();               // initialize the lcd
+  lcd.init();  
   lcd.backlight();  
  
   Serial.print("Connecting to ");
@@ -57,11 +57,11 @@ void loop() {
   lcd.clear();
       
 
-      lcd.setCursor(0, 0); // start to print at the first row
+      lcd.setCursor(0, 0); 
       lcd.print("Temp: ");
       lcd.print(temperature);
 
-      lcd.setCursor(0, 1); // start to print at the first row
+      lcd.setCursor(0, 1); 
       lcd.print("Hum: ");
       lcd.print(humidity);
       
@@ -95,7 +95,6 @@ String httpGETRequest(const char* serverName) {
     Serial.print("Error code: ");
     Serial.println(httpResponseCode);
   }
-  // Free resources
   http.end();
 
   return payload;
