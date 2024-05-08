@@ -13,5 +13,15 @@ An ESP8266-based system to monitor temperature, humidity, and distance using sen
 - **HC-SR04 Ultrasonic Sensor** (for Distance Measurement)
 - **LCD Display (16x2) with I2C Interface**
 
+## Libraries Used
+
+- `ESP8266WiFi`
+- `ESP8266HTTPClient`
+- `LiquidCrystal_I2C`
+- `ESPAsyncWebServer`
+- `DHT.h`
+- `Adafruit_Sensor`
+
+
 
 
