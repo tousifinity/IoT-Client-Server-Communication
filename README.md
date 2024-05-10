@@ -31,5 +31,8 @@ This part of the system connects to a WiFi network, fetches the temperature and 
 - The client sends HTTP GET requests to fetch temperature and humidity data from the server.
 - The data is displayed on a 16x2 LCD screen connected to the ESP8266.
 
+### 2. Server (Web Interface)
+
+The server serves a web page showing the real-time temperature and humidity data. It updates every 10 seconds.
 
 
