@@ -22,6 +22,12 @@ An ESP8266-based system to monitor temperature, humidity, and distance using sen
 - `DHT.h`
 - `Adafruit_Sensor`
 
+## System Overview
+
+### 1. Client (LCD Display)
+
+This part of the system connects to a WiFi network, fetches the temperature and humidity from a server, and displays the data on an LCD screen every 5 seconds.
+
 
 
 
