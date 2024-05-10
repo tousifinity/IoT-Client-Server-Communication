@@ -35,4 +35,9 @@ This part of the system connects to a WiFi network, fetches the temperature and 
 
 The server serves a web page showing the real-time temperature and humidity data. It updates every 10 seconds.
 
+- The server reads data from the DHT21 sensor.
+- The web page dynamically updates the temperature and humidity on the page using JavaScript and HTTP GET requests.
+
+
+
 
