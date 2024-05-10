@@ -28,6 +28,8 @@ An ESP8266-based system to monitor temperature, humidity, and distance using sen
 
 This part of the system connects to a WiFi network, fetches the temperature and humidity from a server, and displays the data on an LCD screen every 5 seconds.
 
+- The client sends HTTP GET requests to fetch temperature and humidity data from the server.
+- The data is displayed on a 16x2 LCD screen connected to the ESP8266.
 
 
 
