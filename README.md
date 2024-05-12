@@ -38,6 +38,10 @@ The server serves a web page showing the real-time temperature and humidity data
 - The server reads data from the DHT21 sensor.
 - The web page dynamically updates the temperature and humidity on the page using JavaScript and HTTP GET requests.
 
+### 3. Server-Client (Distance Measurement)
+
+This part of the system measures the distance using the HC-SR04 ultrasonic sensor and displays it on an LCD screen.
+
 
 
 
