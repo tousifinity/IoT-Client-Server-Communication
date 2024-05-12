@@ -42,6 +42,8 @@ The server serves a web page showing the real-time temperature and humidity data
 
 This part of the system measures the distance using the HC-SR04 ultrasonic sensor and displays it on an LCD screen.
 
+- The distance is calculated using the time it takes for an ultrasonic pulse to travel to an object and back.
+- The result is displayed on the LCD screen.
 
 
 
