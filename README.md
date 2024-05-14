@@ -52,6 +52,11 @@ This part of the system measures the distance using the HC-SR04 ultrasonic senso
      - VCC to 3.3V
      - GND to GND
      - Data pin to D5 (GPIO14)
+   - Connect the **HC-SR04 ultrasonic sensor** to the ESP8266:
+     - VCC to 5V (or 3.3V depending on your setup)
+     - GND to GND
+     - Trig pin to D4
+     - Echo pin to D3
    
 
 
