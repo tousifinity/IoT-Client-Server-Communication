@@ -45,5 +45,13 @@ This part of the system measures the distance using the HC-SR04 ultrasonic senso
 - The distance is calculated using the time it takes for an ultrasonic pulse to travel to an object and back.
 - The result is displayed on the LCD screen.
 
+## Setup Instructions
+
+1. **Wiring**:
+   - Connect the **DHT21 sensor** to the ESP8266 as follows:
+     - VCC to 3.3V
+     - GND to GND
+     - Data pin to D5 (GPIO14)
+   
 
 
