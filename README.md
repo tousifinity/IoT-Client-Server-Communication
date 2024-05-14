@@ -61,6 +61,8 @@ This part of the system measures the distance using the HC-SR04 ultrasonic senso
 
 2. **Modify the Code**:
    - Update the WiFi credentials (`ssid` and `password`) in the server and client code.
-   
+   - Ensure the IP addresses for the server in the client code are correctly set.
+
+
 
 
