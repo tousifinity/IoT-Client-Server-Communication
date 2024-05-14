@@ -59,5 +59,8 @@ This part of the system measures the distance using the HC-SR04 ultrasonic senso
      - Echo pin to D3
    - Connect the **LCD display** using the I2C interface.
 
+2. **Modify the Code**:
+   - Update the WiFi credentials (`ssid` and `password`) in the server and client code.
+   
 
 
