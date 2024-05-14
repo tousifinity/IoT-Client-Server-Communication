@@ -57,6 +57,7 @@ This part of the system measures the distance using the HC-SR04 ultrasonic senso
      - GND to GND
      - Trig pin to D4
      - Echo pin to D3
-   
+   - Connect the **LCD display** using the I2C interface.
+
 
 
