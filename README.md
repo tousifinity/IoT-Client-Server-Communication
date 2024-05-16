@@ -63,6 +63,8 @@ This part of the system measures the distance using the HC-SR04 ultrasonic senso
    - Update the WiFi credentials (`ssid` and `password`) in the server and client code.
    - Ensure the IP addresses for the server in the client code are correctly set.
 
-
+3. **Upload the Code**:
+   - Upload the **server code** to the ESP8266 to run the web server.
+   
 
 
