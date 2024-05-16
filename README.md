@@ -66,6 +66,8 @@ This part of the system measures the distance using the HC-SR04 ultrasonic senso
 3. **Upload the Code**:
    - Upload the **server code** to the ESP8266 to run the web server.
    - Upload the **client code** to another ESP8266 to fetch and display the data on an LCD screen.
-   
+   - Upload the **server-client code** to measure distance with the ultrasonic sensor and display it on the LCD.
+
+
 
 
