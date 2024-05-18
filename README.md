@@ -68,6 +68,10 @@ This part of the system measures the distance using the HC-SR04 ultrasonic senso
    - Upload the **client code** to another ESP8266 to fetch and display the data on an LCD screen.
    - Upload the **server-client code** to measure distance with the ultrasonic sensor and display it on the LCD.
 
+4. **Access the Web Server**:
+   - After uploading the code, the server will print the ESP8266’s local IP address in the Serial Monitor.
+   - Access the server by typing the ESP8266’s IP address into a web browser.
+
 
 
 
