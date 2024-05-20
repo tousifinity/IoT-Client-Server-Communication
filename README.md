@@ -72,6 +72,9 @@ This part of the system measures the distance using the HC-SR04 ultrasonic senso
    - After uploading the code, the server will print the ESP8266’s local IP address in the Serial Monitor.
    - Access the server by typing the ESP8266’s IP address into a web browser.
 
+## File Overview
+
+- `client.ino`: Handles the WiFi connection, fetches temperature and humidity data from the server, and displays the information on an LCD screen.
 
 
 
