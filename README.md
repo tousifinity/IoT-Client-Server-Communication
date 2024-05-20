@@ -76,6 +76,7 @@ This part of the system measures the distance using the HC-SR04 ultrasonic senso
 
 - `client.ino`: Handles the WiFi connection, fetches temperature and humidity data from the server, and displays the information on an LCD screen.
 - `server.ino`: Sets up the ESP8266 as a web server, serves a webpage, and sends temperature and humidity data from the DHT21 sensor to the client.
+- `server client.ino`: Measures the distance using an ultrasonic sensor and displays it on an LCD screen.
 
 
 
