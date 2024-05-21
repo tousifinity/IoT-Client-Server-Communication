@@ -78,5 +78,10 @@ This part of the system measures the distance using the HC-SR04 ultrasonic senso
 - `server.ino`: Sets up the ESP8266 as a web server, serves a webpage, and sends temperature and humidity data from the DHT21 sensor to the client.
 - `server client.ino`: Measures the distance using an ultrasonic sensor and displays it on an LCD screen.
 
+## Troubleshooting
+
+- Ensure the ESP8266 is properly connected to your WiFi network.
+- Make sure the sensors are correctly wired and functional.
+- If the LCD does not display correctly, check the wiring and I2C address.
 
 
